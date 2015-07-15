@@ -1,0 +1,372 @@
+body{
+  margin: -16px 0 0 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0;
+}
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/************Первая часть header**********************/
+.top{
+  text-align: right;
+  padding: 8px 50px 0 0;
+  background-color: rgb( 0, 62, 104 );
+  height: 85px;
+}
+.top li{
+  padding: 10px;
+  display: inline-block;
+}
+.no_text{
+  display: none;
+}
+.link1{
+  width: 40px;
+  height: 40px;
+	background: url('../img/link1.png') no-repeat;
+	background-size: 40px 40px;
+}
+.link2{
+  width: 40px;
+  height: 40px;
+  background: url('../img/links2.png') no-repeat;
+  background-size: 40px 40px;
+}
+.link3{
+	width: 40px;
+  height: 40px;
+  background: url('../img/link3.png') no-repeat;
+  background-size: 40px 40px;
+}
+.link4{
+	width: 40px;
+  height: 40px;
+  background: url('../img/link4.png') no-repeat;
+  background-size: 40px 40px;
+}
+.link5{
+	width: 50px;
+  height: 40px;
+  background: url('../img/link5.png') no-repeat;
+  background-size: 50px 40px;
+}
+.link1:hover{
+  width: 40px;
+  height: 40px;
+  background: url('../img/links1.png') no-repeat;
+  background-size: 40px 40px;
+}
+.link2:hover{
+  width: 40px;
+  height: 40px;
+  background: url('../img/link2.png') no-repeat;
+  background-size: 40px 40px;
+}
+.link3:hover{
+  width: 40px;
+  height: 40px;
+  background: url('../img/links3.png') no-repeat;
+  background-size: 40px 40px;
+}
+.link4:hover{
+  width: 40px;
+  height: 40px;
+  background: url('../img/links4.png') no-repeat;
+  background-size: 40px 40px;
+}
+.link5:hover{
+  width: 50px;
+  height: 40px;
+  background: url('../img/links5.png') no-repeat;
+  background-size: 50px 40px;
+}
+
+/******************Вторая часть header***************/
+.top2{ 
+  width: 100%;
+  height: 100px;
+  background-color: rgb( 1, 82, 137 );
+}
+header img{
+  height: 100px;
+  width: 225px;
+  float: left;
+}
+.menu{
+  font-size: 130px;
+  font-family: "Open Sans";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+  line-height: 0.643;
+  -moz-transform: matrix( 0.25,0,0,0.25,0,0);
+  -webkit-transform: matrix( 0.25,0,0,0.25,0,0);
+  -ms-transform: matrix( 0.25,0,0,0.25,0,0);
+  float: right;
+  vertical-align: middle;
+  line-height: 100px;
+  margin-right: -100px;
+}
+.btn{
+  width: 80px;
+  height: 80px;
+  background: url('../img/knopka.png') no-repeat;
+  background-size: 80px 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+}
+
+/************************************Nav*********************************/
+nav{
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  height: 60px;
+  width: 100%;
+  background-color: rgb( 229, 237, 244 );
+}
+.str1{
+  height: 60px;
+  background: url('../img/strelka.png') left no-repeat;
+  background-size: 40px 50px;
+  padding-left: 50px;
+  /*border-right: 1px solid rgb( 0, 78, 130 );*/
+}
+.str2{
+  height: 60px;
+  width: 50px;
+  background: url('../img/strelka1.png') left no-repeat;
+  background-size: 40px 50px;
+  /*border-left: 1px solid rgb( 0, 78, 130 );*/
+}
+nav>a{
+  display: inline-block;
+}
+nav ul{
+  padding: 0;
+  margin-top: -27px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 60px;
+}
+nav li{
+  display: inline-block;
+}
+nav ul a{
+  padding: 20px;
+  font-size: 26px;
+  font-family: "Myriad Pro";
+  color: rgb( 0, 78, 130 );
+}
+nav a:hover{
+  color: #eb5946;
+}
+.str1:hover{
+  height: 60px;
+  background: url('../img/strelkaS.png') left no-repeat;
+  background-size: 40px 50px;
+  padding-left: 50px;
+  /*border-right: 1px solid #eb5946;*/
+}
+.str2:hover{
+  height: 60px;
+  width: 50px;
+  background: url('../img/strelka1S.png') left no-repeat;
+  /*border-left: 1px solid #eb5946;*/
+  background-size: 40px 50px;
+}
+
+
+/***********************************************Основная часть**************************************/
+body>section{
+  box-shadow: 10 0 10px rgba(0,0,0,0.5);
+  width: 100%;
+  margin-top:-15px;
+}
+.osn1{
+  padding: 20px 0;
+	width: 100%;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.osn1 li{
+  display: inline-block;
+  height: 300px;
+  margin-left: -5px;
+}
+figure{
+	margin: 10px;
+}
+.zvezda{
+	background: url('../img/zvezda.png') no-repeat 5px;
+	padding-left: 90px;
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb( 1, 82, 137 );
+}
+.text{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb( 1, 82, 137 );
+  line-height: 1.857;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.text1{
+  font-size: 13px;
+  font-family: "Raleway";
+  color: rgb( 255, 255, 255 );
+  line-height: 36px;
+  text-align: center;
+  vertical-align: middle;
+}
+.blue{
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb( 1, 82, 137 );
+  width: 86px;
+  height: 36px;
+  font-size: 13px;
+  font-family: "Raleway";
+  color: rgb( 255, 255, 255 );
+  line-height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.red{
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb( 235, 89, 70 );
+  width: 96px;
+  height: 36px;
+  font-size: 13px;
+  font-family: "Raleway";
+  color: rgb( 255, 255, 255 );
+  line-height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.osn1 figure{
+	padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 229, 237, 244 );
+  border-radius: 8px;
+  background-color: rgb( 255, 255, 255 );
+  width: 200px;
+}
+.osn1 img{
+  width: 200px;
+  height: 120px;
+}
+.gallery img{
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s; 
+-o-transition-duration: 0.5s; 
+}
+.gallery img:hover{
+box-shadow: 0 0 10px gray;
+-webkit-box-shadow:0px 0px 10px gray; 
+-moz-box-shadow:0px 0px 10px gray; 
+}
+
+/*Вторая часть*/
+.hovs1{
+  display: none;
+}
+.osn1 li:hover .hovs1{
+  display: block;
+  position: absolute;
+  top: 530px;
+  left: 167px;
+  width: 965px;
+  margin-bottom: 80px;
+}
+.hovs1 img{
+  width: 480px;
+  height: 300px;
+  float: left;
+}
+.text_hover{
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb( 1, 82, 137 );
+  line-height: 1.857;
+  text-align: center;
+  padding-left: 15px;
+}
+.osn1 li:hover .hovs1 figcaption{
+  width: 460px;
+  padding-left: 25px;
+  float: left;
+}
+.zvezda_hover{
+  background: url('../img/zvezda.png') no-repeat 5px;
+  background-size: 80px 16px;
+  padding-left: 100px;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb( 1, 82, 137 );
+}
+.text_bl{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: black;
+  line-height: 1.857;
+  text-align: left;
+  padding-left: 5px;
+}
+/*******************************Footer**********************************/
+footer{
+  background-color: rgb( 229, 237, 245 );
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  position: fixed;
+}
+footer p{
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb( 131, 150, 169 );
+  line-height: 1.846;
+  text-align: center;
+}
+
+/*************************Для продуктов*******************************/
+.product{
+  width: 965px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 229, 237, 244 );
+  border-radius: 8px;
+  background-color: rgb( 255, 255, 255 );
+  margin: 80px auto;
+  margin-top: 30px;
+}
+.product img{
+  width: 480px;
+  height: 300px;
+  float: left;
+}
+.product figcaption{
+  width: 460px;
+  padding-left: 25px;
+  float: left;
+}
